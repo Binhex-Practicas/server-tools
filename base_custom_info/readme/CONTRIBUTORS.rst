@@ -15,3 +15,6 @@
 * Ecosoft:
 
   * Kitti U. <kittiu@ecosoft.co.th> (migration to v14)
+* Binhex Systems Solutions:
+
+  * Jose Mendez <j.mendez@binhex.es>

@@ -9,7 +9,7 @@ from odoo.tools import mute_logger
 
 
 class PartnerCase(TransactionCase):
-    def setUp(self, *args, **kwargs):
+    def setUpClass(self, *args, **kwargs):
         super(PartnerCase, self).setUp(*args, **kwargs)
         self.agrolait = self.env.ref("base.res_partner_2")
         self.tpl = self.env.ref("base_custom_info.tpl_smart")

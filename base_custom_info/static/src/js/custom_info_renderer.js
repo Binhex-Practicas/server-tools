@@ -6,7 +6,7 @@ odoo.define("base_custom_info.CustomInfoRenderer", function (require) {
     var core = require("web.core");
     var qweb = core.qweb;
 
-    var CustomInfoRenderer = BasicRenderer.extend({
+    var CustomInfoRenderer = BasicRenderer.extend({ 
         init: function (parent, state, params) {
             params = _.defaults({}, params, {
                 viewType: "custom_info",
